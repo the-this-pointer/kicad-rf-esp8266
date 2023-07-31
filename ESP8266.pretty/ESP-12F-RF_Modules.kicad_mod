@@ -97,7 +97,7 @@
       )
     )
   )
-  (model "../ESP8266.3dshapes/ESP-12F-rf.STEP"
+  (model "${THISPTR_LBR_DIR}/kicad-rf-esp8266/ESP8266.3dshapes/ESP-12F-rf.STEP"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 180 -90))
