@@ -38,6 +38,11 @@ The present modules are:
   * There is a footprint for the ESP-06, but no supporting
       schematic symbol.
 
+Added two new footprints from the official `RF_Module` library:
+  * ESP-07-RF_Modules - ESP-07 that is pin compatible with the ESP-12 and pads are located on the top layer, also the footprint has a keepout region for the antenna.
+
+  * ESP-12F-RF_Modules - ESP-12 with smd pads on top layer, also the footprint has a keepout region for the antenna. The symbol for this component should be tested before using, because I didn't add any symbol and didn't use it so far.
+
 There are 3d models for the ESP-07v2, ESP-13, ESP-12 and ESP-12E.
 
 WARNINGS
@@ -121,6 +126,11 @@ This repository includes all the intermediate files:
   * `.wings` - Wings3D model
   * `.wrl` - VRML model for KiCAD
 
+3D Models for new added footprints are taken from the following links:
+
+  * ESP-07-RF_Modules - [link](https://grabcad.com/library/esp07-1)
+  
+  * ESP-12F-RF_Modules - [link](https://grabcad.com/library/esp-12f-esp8266-1)
 
 License
 -------
